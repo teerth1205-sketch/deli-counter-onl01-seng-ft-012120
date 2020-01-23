@@ -14,15 +14,16 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  new array = []
+ 
   katz_deli << name
   count = 1
   array = []
   katz_deli.each do |new|
-     array << "#{new} "
-    
+     array << "#{new} #{count} "
+     count += -1
+   end
   
- puts 
- puts katz_deli[-1] 
+
+ end
   
     
