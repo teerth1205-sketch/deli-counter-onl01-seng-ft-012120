@@ -25,6 +25,8 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{count} in line."
  end
  
- def 
+ def now_serving(katz_deli)
+   if katz_deli == []
+     puts
   
     
