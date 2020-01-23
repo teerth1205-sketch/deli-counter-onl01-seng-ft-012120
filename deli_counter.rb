@@ -22,8 +22,7 @@ def take_a_number(katz_deli, name)
      array << "#{new} #{count} "
      count += -1
    end
-  
-
+  puts array[-1]
  end
   
     
