@@ -4,8 +4,8 @@ def line(katz_deli)
   puts "The line is currently empty."
   else
     newArray = []
-    katz_deli.each do |name|
     count = 1
+    katz_deli.each do |name|
     newArray << "#{count}. #{name}"
     count += 1
     end
