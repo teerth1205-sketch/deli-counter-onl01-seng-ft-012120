@@ -6,7 +6,7 @@ def line(katz_deli)
     newArray = []
     katz_deli.each do |name|
     count = 1
-    newArray << " #{count}. #{name} "
+    newArray << "#{count}. #{name}"
     count += 1
     end
     puts "The line is currently: #{newArray.join(" ")}"
