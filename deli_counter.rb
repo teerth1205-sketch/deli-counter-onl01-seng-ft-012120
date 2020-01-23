@@ -9,6 +9,6 @@ def line(katz_deli)
     newArray << " #{count}. #{name} "
     count += 1
     end
-    puts "The line is currently:" #{newArray}.join(" ")
+    puts "The line is currently:" + #{newArray}.join(" ") 
 end
 end
