@@ -17,6 +17,6 @@ def take_a_number(katz_deli, name)
   new array = []
   i = katz_deli.index
  katz_deli << name 
- puts katz_deli[-1] + i
+ puts katz_deli[-1] 
   
     
