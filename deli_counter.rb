@@ -4,5 +4,9 @@ def line(katz_deli)
   puts "The line is currently empty."
 else
   katz_deli.each do |name|
+    count = 1
+    "The line is currently: #{count}. #{name}"
     
+    count += 1
+  end
 end
