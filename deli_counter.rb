@@ -20,9 +20,9 @@ def take_a_number(katz_deli, name)
   array = []
   katz_deli.each do |new|
      array << "#{new} #{count} "
-     count += -1
+     count += 1
    end
-  puts array[-1]
+  puts "Welcome #{name}. You are number #{count} in line."
  end
   
     
