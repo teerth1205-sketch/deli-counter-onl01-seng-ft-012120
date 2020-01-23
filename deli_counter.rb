@@ -5,9 +5,10 @@ def line(katz_deli)
   else
     katz_deli.each do |name|
     count = 1
-    puts "The line is currently: #{count}. #{name}"
-    
+    newArray = []
+    newArray << " #{count}. #{name} "
     count += 1
-  end
+    end
+    puts 
 end
 end
